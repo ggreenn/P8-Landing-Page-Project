@@ -1,0 +1,69 @@
+/* color variables */
+:root {
+    --dark-blue: #003b58;
+    --light-blue: #d4e1e7;
+    --crimson: #c9143f;
+    --cyan: #02b4c0;
+    --black: #100f0d;
+    --dark-grey: #555152;
+    --body-bg: #fff;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    color: var(--black);
+    background-color: var(--body-bg);
+    margin: 0;
+    font-weight: 400;
+}
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+header, main, footer {
+    margin: 0;
+}
+
+/* buttons */
+a.button {
+    display: inline-block;
+    width: auto;
+    padding: 0.5em 1em;
+    background-color: var(--dark-blue);
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.button.primary {
+    background-color: var(--cyan);
+}
+
+/* navbar styling */
+#hero nav {
+    display: flex;
+    justify-content: space-between;
+}
+#hero nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+#hero nav a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a {
+    color: var(--dark-grey);
+}
+
+/* Style the hero unit grid */
+
+/* other styles */
+footer {
+    color: white;
+    padding: 1em;
+    background-color: var(--dark-blue);
+}
