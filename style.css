@@ -38,6 +38,8 @@ a.button.primary {
     background-color: var(--cyan);
 }
 
+
+
 /* navbar styling */
 #hero nav {
     display: flex;
@@ -47,6 +49,8 @@ a.button.primary {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    margin: 0;
+
 }
 #hero nav a {
     display: block;
