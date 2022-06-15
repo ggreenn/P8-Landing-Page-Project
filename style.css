@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 header, main, footer {
-    margin: 0;
+    margin: 10px;
 }
 
 /* buttons */
@@ -44,6 +44,7 @@ a.button.primary {
 #hero nav {
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 #hero nav ul {
     list-style-type: none;
@@ -64,10 +65,45 @@ nav a {
 }
 
 /* Style the hero unit grid */
-
+#hero {
+    background-image: url("images/luxury_bags.png");
+    background-repeat: no-repeat;
+    background-size: 48vw;
+    background-position: right bottom;
+}
+#tagline {
+    padding: 1em;
+    width: 48vw;
+}
 /* other styles */
+main {
+    padding: 1em;
+}
 footer {
     color: white;
     padding: 1em;
     background-color: var(--dark-blue);
+}
+@media screen and (min-width: 1000px) {
+    #hero {
+        display: grid;
+        grid-template-columns: 1fr 2fr 7fr;
+        grid-template-rows: minmax(80px, auto) minmax(100px, auto) minmax(25vh, 50%);
+        grid-template-areas: 
+        /*padding: 50px;
+
+    }
+}
+       /* "nav nav nav nav nav nav"
+       /* "discount discount discount discount discount discount"
+        "tag tag"
+        ;
+    }
+}
+
+/*@media screen and (min-width: 900px) {
+    #tagline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: minmax(80px, auto) minmax(0px, auto) minmax(25vh, 50%);
 }
