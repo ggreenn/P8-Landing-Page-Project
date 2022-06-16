@@ -101,7 +101,15 @@ footer {
         height: auto;
     }
 } 
-        
+a:link {
+    color: #C6BDFF;
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover {
+    color:#b1a4ff;
+}
         /*padding: 50px;
 
     }
