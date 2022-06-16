@@ -52,6 +52,7 @@ a.button.primary {
     display: flex;
     flex-direction: row;
     margin: 0;
+    padding: 5px;
 
 }
 #hero nav a {
@@ -60,6 +61,7 @@ a.button.primary {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    background-color: var(--dark-blue)
 }
 nav a {
     color: var(--dark-grey);
